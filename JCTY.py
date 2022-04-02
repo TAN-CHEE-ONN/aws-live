@@ -29,10 +29,9 @@ def home():
 def about():
     return render_template('EmployeeSystem.html')
 
-@app.route("/about", methods=['POST'])
-def about():
-    return render_template('www.intellipaat.com')
-
+# @app.route("/about", methods=['POST'])
+# def about():
+#     return render_template('www.intellipaat.com')
 
 @app.route("/addemp", methods=['POST'])
 def AddEmp():
